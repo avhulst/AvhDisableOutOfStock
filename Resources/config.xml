@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../../engine/Shopware/Components/Plugin/schema/config.xsd">
+
+    <elements>
+        <element type="text">
+            <name>email</name>
+            <label lang="de">E-Mail Empfänger</label>
+            <label lang="en">E-Mail recipient</label>
+            <value></value>
+            <description lang="de">Ersetzt die System E-Mail-Adresse des Shopbetreibers.</description>
+            <description lang="en">Replaces the system e-mail address of the shop owner.</description>
+        </element>
+        <element type="boolean">
+            <name>sendmail</name>
+            <label lang="de">Log als E-Mail</label>
+            <label lang="en">Log as e-mail</label>
+            <value>true</value>
+        </element>
+        <element type="boolean">
+            <name>lastStock</name>
+            <label lang="de">Nur Abverkaufsartikel</label>
+            <label lang="en">Only last stock</label>
+            <value>true</value>
+            <description lang="de">Deaktiviert nur Abverkaufsartikel.</description>
+            <description lang="en">Deaktiviert nur Abverkaufsartikel.</description>
+        </element>
+    </elements>
+
+</config>
